@@ -4,6 +4,7 @@
 	"description": "Cloud-deployed weba pp that multiplies two or more factors",
 	"main": "server/server.js",
 	"scripts": {
+		"postinstall": "browserify client/app.js -o client/bundle.js",
 		"start": "node server/server.js"
 	},
 	"dependencies": {
