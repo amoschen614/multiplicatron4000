@@ -19,7 +19,14 @@
  	margin-top: 50px;
  }
 
- .sum{
+ .product {
  	font-size: 48px;
  	font-weight: bold;
+ }
+
+ .button {
+ 	font-size: 36px;
+ 	margin-top: 50px;
+ 	margin: 0 auto;
+ 	text-align: center;
  }
