@@ -24,8 +24,13 @@ class ViewManager {
 		this.renderProduct(product);
 	}
 	renderProduct(product) {
-		document.getElementById('product').textContent = product;
-//		document.querySelector('.product').textContent = product;
+		var isValid = true;
+		for (var i = 2; i < formElements.length; i++) {
+			isValid = isValid && formElements[i].value;
+		}
+		if (isValid) {
+			document.querySelector('.product').textContent = product;
+		}
 	}
 }
 
