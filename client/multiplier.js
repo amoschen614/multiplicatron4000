@@ -6,7 +6,6 @@ const multiplyAll = function(factorArr) {
 	var product = 1;
 	for (var i = 0; i < factorArr.length; i++) {
 		product *= factorArr[i];
-		console.log(product);
 	}
 	return product;
 }
